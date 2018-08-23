@@ -1,0 +1,34 @@
+body {
+	background-color: #92B4F4;
+	text-align: center;
+	font-family: Helvetica;
+}
+h1 {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+#survey-form div {
+	display: block;
+
+}
+#lang {
+	display: block;
+}
+
+#age{
+ 
+}
+#form-cont{
+	width: 600px;
+	margin: 0 auto;
+	
+	background-color: rgb(250, 250, 250);
+	padding: 10px 10px 10px 10px;
+
+}
+#age{
+	
+
+}
