@@ -9,26 +9,63 @@ h1 {
 }
 
 
-#survey-form div {
-	display: block;
 
-}
-#lang {
-	display: block;
-}
-
-#age{
- 
-}
 #form-cont{
-	width: 600px;
+	width: 60%;
 	margin: 0 auto;
 	
-	background-color: rgb(250, 250, 250);
-	padding: 10px 10px 10px 10px;
+	background-color: #ffffff;
+	padding: 20px 10px 20px 10px;
 
 }
-#age{
-	
+#radio-intern{
+	margin-top: 15px;
+}
+#yes, #no {
+	margin-left: 10px;
+}
+#checkbox{
+	margin-top: 16px;
+}
+#dropdown{
+	margin-top: 16px;
+}
+#checkbox, input[type="checkbox"] {
+	margin-left: 6px;
+}
 
+#txt{
+	height: 50px;
+}
+#suggestions {
+	margin-top: 20px;
+}
+#submit {
+	background-color: black;
+	color: white;
+}
+.labels {
+	display: inline-block;
+	text-align: right;
+	width: 42%;
+	padding: 4px 4px 4px 4px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.inputInd  {
+	display: inline-block;
+	text-align: left;
+
+	width: 51%;
+	vertical-align: top;
+}
+
+.inputs {
+	  height: 18px;
+	  width: 200px;
+	  padding: 4px 4px 4px 4px;
+	  margin: 10px 10px 10px 10px;
+	  border: 1.5px solid #92B4F4;
+	  
 }
