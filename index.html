@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	<h1 id = "title" > Undergrad Survey </h1>
+	<h1 id = "title" > CS Undergraduate Survey </h1>
 	<div id = "form-cont"> 
 		<p id = "description" class = "center"> Help us learn more about CS undergraduates </p>
 		<form id = "survey-form" action = "">
@@ -57,16 +57,32 @@
 						<label> * Internship: </label>
 					</div>
 					<div id = "radio-intern" class = "inputInd">
-						<label for "yes" >
-							<input id = "yes"  value = "yes" type = "radio" name = "internship" required> Yes
+						<label for "yes-paid" >
+							<input id = "yes-paid"  value = "yes (paid)" type = "radio" name = "internship" required> Yes (paid)
+						</label>
+						<label for "yes-unpaid">
+							<input id = "yes-unpaid" value="yes (unpaid)" type = "radio" name = "internship"> Yes (unpaid)
 						</label>
 						<label for "no">
 							<input id = "no" value = "no" type = "radio" name = "internship"> No
 						</label>
+
 					</div>
 				</div>
-
 				<div> 
+					<div class = "labels">
+						<label for "front-end-years"> Years of Front End Experience: </label>
+					</div>
+					<div class="inputInd"> 
+						<input id="front-end-years" class="inputs" name="Years of Front End Experience" type = "number" min = "0" max = "100" placeholder="Enter number of years">
+					</div>
+					<div class = "labels">
+						<label for "back-end-years"> Years of Back End Experience: </label>
+					</div>
+					<div class="inputInd"> 
+						<input id="back-end-years" class="inputs" name="Years of Back End Experience" type = "number" min = "0" max = "100" placeholder="Enter number of years">
+					</div>
+				<div > 
 					<div class = "labels">
 						<label id = "lang"> Programming Languages taught or learned<br> (Check all that apply): </label>
 					</div>
@@ -74,12 +90,12 @@
 						
 						<div>
 							<label for "python">
-								<input id = "python" value = "python" type = "checkbox" name = "languages"> python 
+								<input id = "python" value = "python" type = "checkbox" name = "languages"> Python 
 							</label>
 						</div>
 						<div>
 							<label for "java">
-								<input id = "java" value = "java" type = "checkbox" name = "languages"> java 
+								<input id = "java" value = "java" type = "checkbox" name = "languages"> Java 
 							</label>
 						</div>
 						<div>
@@ -99,12 +115,12 @@
 						</div>
 						<div>
 							<label for "css">
-								<input id = "css" value = "css" type = "checkbox" name = "languages"> css 
+								<input id = "css" value = "css" type = "checkbox" name = "languages"> CSS 
 							</label>
 						</div>
 						<div>
 							<label for "javascript">
-								<input id = "javascript" value = "javascript" type = "checkbox" name = "languages"> javascript 
+								<input id = "javascript" value = "javascript" type = "checkbox" name = "languages"> JavaScript 
 							</label>
 						</div>
 					</div>
@@ -112,7 +128,7 @@
 
 				<div id = "suggestions">
 					<div class = "labels"   >
-						<label id = "suggestions-label"> Comments or Suggestions Here: </label>
+						<label id = "suggestions-label">  Advice on attaining an internship: </label>
 					</div>
 					<div class = "inputInd">
 
