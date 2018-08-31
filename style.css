@@ -9,6 +9,12 @@ h1 {
 	font-size: 40px;
 }
 
+footer{
+	line-height: 20px;
+	text-align: center;
+	padding: 30px;
+}
+
 #form-cont{
 	width: 60%;
 	margin: 0 auto;
@@ -16,6 +22,7 @@ h1 {
 	background-color: #ffffff;
 	padding: 20px 10px;
 }
+
 
 #radio-intern{
 	margin-top: 15px;
@@ -74,3 +81,4 @@ h1 {
 	  margin: 10px;
 	  border: 1.5px solid #92B4F4;	  
 }
+
